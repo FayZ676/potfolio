@@ -1,10 +1,24 @@
 ---
-title: AI Chatbot
-description: Built full stack AI chatbot’s from scratch using Langchain, Pinecone, OpenAI API, Python, and Next JS, allowing users to converse either directly with ChatGPT or with various other data sources such as PDF’s, webpages, and Google Drive documents.
+title: Info Sage
+description: Full stack AI chatbot that enables users to converse directly with ChatGPT along with various other data sources such as PDF’s, webpages, and personal Google Drive documents.
 repository: FayZ676/info-sage
 date: "2023-07-01"
-url: https://captionit.ai
 published: true
 ---
 
-Built full stack AI chatbot’s from scratch using Langchain, Pinecone, OpenAI API, Python, and Next.js with Typescript, allowing users to converse either directly with ChatGPT or with various other data sources such as PDF’s, webpages, and Google Drive documents.
+**Frameworks and Languages**: Next.js, Python
+
+**Libraries**: Pinecone, Langchain, OpenAI API, MongoDB, Auth0, FastAPI
+
+I built Info Sage during the early days of Langchain, before many of the fully fledged document chatbot projects had launched. At the time, there was a lot missing from document chatbots and it was somewhat of a race to see who could drop the most complete version. Info Sage ended up becoming my attempt.
+
+The UI/UX was built with Next.js while the chatbot functionality was primarily handled by a seperate Python API built with FastAPI. It has the following features:
+
+1. User Authentication with Auth0.
+2. Built in ChatGPT (gpt-3.5-turbo) support for standard querying.
+3. Support for crawling and indexing webpages.
+4. Support for indexing Google Docs.
+5. MongoDB database for retaining chats.
+6. Pinecone Namespaces for data abstraction.
+7. Finegrained Pinecone namespace control (Create, delete, and update individual Namespaces).
+8. Minimal and intuitive Next.js interface to wrap it all up in.

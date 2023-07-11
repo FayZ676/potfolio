@@ -36,7 +36,7 @@ export default function Home() {
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
           Hi, my name is Faizi. I'm a full-stack software developer with
-          experience in developing and shipping large scale SAAS products.
+          experience developing and shipping large scale SAAS products.
           <br />
           Over the last year I co-founded and have been building{" "}
           <Link
@@ -56,6 +56,24 @@ export default function Home() {
           </Link>{" "}
           for developers on Youtube.
         </h2>
+        <div className="text-sm text-zinc-500 mt-5">
+          This website uses the the following open source Next.js{" "}
+          <Link
+            target="_blank"
+            href="https://github.com/chronark/chronark.com"
+            className="underline duration-500 hover:text-zinc-300"
+          >
+            project
+          </Link>{" "}
+          by{" "}
+          <Link
+            target="_blank"
+            href="https://github.com/chronark"
+            className="underline duration-500 hover:text-zinc-300"
+          >
+            chronark
+          </Link>
+        </div>
       </div>
     </div>
   );
