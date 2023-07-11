@@ -41,7 +41,7 @@ export default function Home() {
           Over the last year I co-founded and have been building{" "}
           <Link
             target="_blank"
-            href="https://upstash.com"
+            href="https://www.captionit.ai"
             className="underline duration-500 hover:text-zinc-300"
           >
             captionit
@@ -49,7 +49,7 @@ export default function Home() {
           , along with full stack AI Chatbots, and occasionally making{" "}
           <Link
             target="_blank"
-            href="https://unkey.dev"
+            href="https://www.youtube.com/channel/UC4V-TeaHHHkdcJAkU3SsmTQ"
             className="underline duration-500 hover:text-zinc-300"
           >
             educational content
