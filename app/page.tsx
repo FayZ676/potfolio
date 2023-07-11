@@ -36,7 +36,7 @@ export default function Home() {
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
           Hi, my name is Faizi. I'm a full-stack software developer with real
-          experience in developing and shipping SAAS products.
+          experience in developing and shipping large scale SAAS products.
           <br />
           Over the last year I co-founded and have been building{" "}
           <Link
