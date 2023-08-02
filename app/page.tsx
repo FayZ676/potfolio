@@ -33,10 +33,11 @@ export default function Home() {
       </h1>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <div className="my-16 text-center animate-fade-in">
+      <div className="my-16 mx-20 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-          Hi, my name is Faizi. I'm a full-stack software developer with
-          experience developing and shipping large scale SAAS products.
+          Hey there, welcome to my website. My name is Faizi and I'm a
+          full-stack software developer with experience in developing and
+          shipping large scale AI SAAS products.
           <br />
           Over the last year I co-founded and have been building{" "}
           <Link
@@ -44,9 +45,11 @@ export default function Home() {
             href="https://www.captionit.ai"
             className="underline duration-500 hover:text-zinc-300"
           >
-            captionit
+            captionit.ai
           </Link>
-          , along with full stack AI Chatbots, and occasionally making{" "}
+          , along with various other tech interestes such as full stack AI
+          Chatbots, web scrapers, process automation with AI, and occasionally
+          making{" "}
           <Link
             target="_blank"
             href="https://www.youtube.com/channel/UC4V-TeaHHHkdcJAkU3SsmTQ"
@@ -54,10 +57,10 @@ export default function Home() {
           >
             educational content
           </Link>{" "}
-          for developers on Youtube.
+          for other software developers on Youtube.
         </h2>
         <div className="text-sm text-zinc-500 mt-5">
-          This website uses the the following open source Next.js{" "}
+          The following awesome open source Next.js{" "}
           <Link
             target="_blank"
             href="https://github.com/chronark/chronark.com"
@@ -65,14 +68,7 @@ export default function Home() {
           >
             project
           </Link>{" "}
-          by{" "}
-          <Link
-            target="_blank"
-            href="https://github.com/chronark"
-            className="underline duration-500 hover:text-zinc-300"
-          >
-            chronark
-          </Link>
+          was the foundation for this website.
         </div>
       </div>
     </div>
